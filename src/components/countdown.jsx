@@ -25,21 +25,6 @@ class Countdown extends React.Component{
             count--;
         }
     }
-    // countdown=()=>{
-    //     let count = this.state.timeToCountDown;
-    //     setTimeout(() => {
-    //     return (<div>{count}</div>)
-    //     }, 1000);
-    // }
-    // formatedTime=()=>{
-    //     let presentation = '';
-    //     if (this.state.displayType===0){
-    //         presentation=this.timeToCountDown;
-    //         return <span>{presentation}</span>
-    //     }
-    // }
-
-
     render(){
         return(
           <div>
