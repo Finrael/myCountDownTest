@@ -1,6 +1,14 @@
 .countDown{
-    
+
     border: 2px;
     color: black;
 
 }
+.options{
+    float: inline-start; 
+}
+.holder {
+    width: 10%;
+    border: 5px solid red;
+    font-size: 2rem;
+  }
